@@ -7,7 +7,28 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Specializing in since 2012:
+          <ul>
+            <li>
+              Heavy Duty diesel repair & maintenence
+            </li>
+            <li>
+              Truck Tires, Body & Custom Work
+            </li>
+            <li>
+              Complete Rebuilds
+            </li>
+            <li>
+              Customization & Paint Specilists
+            </li>
+            <li>
+              Heavy Duty Sales
+            </li>
+            <li>
+              Auto Repair & Sales
+            </li>
+          </ul>
+          The gold standard in heavy duty repairs
         </p>
         <a
           className="App-link"
@@ -15,7 +36,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn More
         </a>
       </header>
     </div>
