@@ -39,6 +39,7 @@ h4 {
 
 ol {
   list-style-type: none;
+  padding: 0;
 }
 
 .App-logo {
