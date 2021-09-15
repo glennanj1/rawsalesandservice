@@ -1,9 +1,48 @@
 .App {
   text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.continer {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font: Roboto;
+  text-shadow: 5px 5px 1px #000;
+}
+
+h2 {
+  
+}
+
+h3 {
+  background-color: goldenrod;
+  color: black;
+  display: block;
+  line-height: 30px;
+  padding: 1px 1px;}
+
+h4 {
+  letter-spacing: 10px;
+  color: gold;
+  }
+
+ol {
+  list-style-type: none;
 }
 
 .App-logo {
-  height: 40vmin;
+  color: gold;
   pointer-events: none;
 }
 
@@ -13,20 +52,41 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.App-header {  
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 10px;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+  .video {
+    height: 100%;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+}
+
+@media screen and (min-width: 1199px) {
+  .video {
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

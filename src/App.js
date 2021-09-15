@@ -1,44 +1,45 @@
-import logo from './logo.svg';
+import BuildIcon from '@material-ui/icons/Build';
 import './App.css';
+const video = 'https://d3ddatyom1hv87.cloudfront.net/rawsales.mp4'
 
 function App() {
   return (
     <div className="App">
+      <video className='video' autoPlay loop playsInline defaultMuted muted>
+            <source src={video} type='video/mp4' />
+      </video>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Specializing in since 2012:
-          <ul>
-            <li>
-              Heavy Duty diesel repair & maintenence
-            </li>
-            <li>
-              Truck Tires, Body & Custom Work
-            </li>
-            <li>
-              Complete Rebuilds
-            </li>
-            <li>
-              Customization & Paint Specilists
-            </li>
-            <li>
-              Heavy Duty Sales
-            </li>
-            <li>
-              Auto Repair & Sales
-            </li>
-          </ul>
-          The gold standard in heavy duty repairs
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn More
-        </a>
+        <h5>(302)448-0168</h5>
+        <BuildIcon className="App-logo"/>
+        <h5>110 McCaulley Ave, PO Box 3, Ellendale, DE 19941</h5>
       </header>
+      <div className="container">
+        <h1>Raw Sales & Service LLC</h1>
+          <p>
+            <h2>Est: 2012</h2>
+            <ol>
+              <li>
+                <h3>Heavy Duty diesel repair</h3>
+              </li>
+              <li>
+                <h3>Tires, Body & Custom Work</h3>
+              </li>
+              <li>
+                <h3> Rebuilds</h3>
+              </li>
+              <li>
+                  <h3>Paint Specilists</h3>
+                </li>
+                <li>
+                    <h3>Heavy Duty Sales</h3>
+                </li>
+                <li>
+                    <h3>Auto Repair & Sales</h3>
+                </li>
+            </ol>
+            <h4>The gold standard in heavy duty repair</h4>
+          </p>
+      </div>
     </div>
   );
 }
