@@ -5,7 +5,7 @@ const video = 'https://d3ddatyom1hv87.cloudfront.net/rawsales.mp4'
 function App() {
   return (
     <div className="App">
-      <video className='video' autoPlay loop playsInline defaultMuted muted>
+      <video className='video' autoPlay loop playsInline muted>
             <source src={video} type='video/mp4' />
       </video>
       <header className="App-header">
