@@ -9,7 +9,7 @@ function App() {
             <source src={video} type='video/mp4' />
       </video>
       <header className="App-header">
-        <h5><a href="tel:+1-3020448-0168">(302)448-0168</a></h5>
+        <h5><a href="tel:+1-302448-0168">(302)448-0168</a></h5>
         <BuildIcon className="App-logo"/>
         <h5>110 McCaulley Ave, PO Box 3, Ellendale, DE 19941</h5>
       </header>
